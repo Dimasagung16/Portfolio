@@ -35,7 +35,7 @@ export function About() {
             Saya dimas saya suka dalam bidang membuat vidio vidio cinematic ataupun fotografer dan juga dalam bidang olahraga seperti sepak bola
           </p>
           <p className="text-base text-muted-foreground md:text-lg">
-            Perjalanan saya di dunia teknologi didorong oleh rasa ingin tahu dan keinginan untuk memecahkan masalah di dunia nyata. Saat tidak sedang membuat kode, Anda dapat menemukan saya menjelajahi tren desain baru, berkontribusi pada proyek sumber terbuka, atau menikmati secangkir kopi yang nikmat.
+            Saya sekarang Sedang bekerja di bidang Cosmetin,Parfum Dan lainnya
           </p>
           <div>
             <h3 className="mb-4 text-lg font-semibold text-foreground">Keahlian Saya</h3>
