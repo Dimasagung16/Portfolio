@@ -3,7 +3,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 
 const skills = [
-  'Sepakbola',
+  'Bidang Olahraga',
   'Cinematic',
   'Mencari rupiah',
   'Figma',
