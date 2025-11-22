@@ -3,7 +3,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 
 const skills = [
-  'Desain UI/UX',
   'Sepakbola',
   'Cinematic',
   'Mencari rupiah',
