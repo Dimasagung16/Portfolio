@@ -7,7 +7,7 @@ const projectsData: Project[] = [
     description: 'Video sinematik yang menampilkan berbagai momen dengan sentuhan artistik.',
     tags: ['Videografi', 'Sinematik', 'Editing'],
     imageId: 'project-1',
-    liveUrl: '#',
+    liveUrl: 'https://res.cloudinary.com/dj2qvrrvk/video/upload/v1763822280/WhatsApp_Video_2025-11-22_at_21.05.04_enpxcb.mp4',
     sourceUrl: '#',
   },
   {
