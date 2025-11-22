@@ -8,7 +8,6 @@ const skills = [
   'Cinematic',
   'Mencari rupiah',
   'Figma',
-  'Firebase',
 ];
 
 export function About() {
