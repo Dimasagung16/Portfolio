@@ -3,9 +3,9 @@ import type { Project } from './project-card';
 
 const projectsData: Project[] = [
   {
-    title: 'Platform E-commerce',
-    description: 'Solusi e-commerce tumpukan penuh dengan UI modern, manajemen produk, dan proses checkout yang aman.',
-    tags: ['Next.js', 'Stripe', 'Tailwind CSS', 'Firebase'],
+    title: 'Vidio CInematic',
+    description: 'Video sinematik yang menampilkan berbagai momen dengan sentuhan artistik.',
+    tags: ['Videografi', 'Sinematik', 'Editing'],
     imageId: 'project-1',
     liveUrl: '#',
     sourceUrl: '#',
@@ -13,7 +13,7 @@ const projectsData: Project[] = [
   {
     title: 'Aplikasi Manajemen Tugas',
     description: 'Aplikasi manajemen tugas responsif yang dirancang untuk meningkatkan produktivitas dengan antarmuka yang intuitif dan bersih.',
-    tags: ['React', 'Framer Motion', 'Node.js'],
+    tags: ['React', 'Framer Motion'],
     imageId: 'project-2',
     liveUrl: '#',
     sourceUrl: '#',
