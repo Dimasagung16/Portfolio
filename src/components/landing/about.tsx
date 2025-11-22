@@ -8,7 +8,6 @@ const skills = [
   'Cinematic',
   'Mencari rupiah',
   'Figma',
-  'Node.js',
   'Firebase',
 ];
 
