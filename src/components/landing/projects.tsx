@@ -12,7 +12,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'Contoh gambar',
-    description: 'Aplikasi manajemen tugas responsif yang dirancang untuk meningkatkan produktivitas dengan antarmuka yang intuitif dan bersih.',
+    description: 'Contoh Project Gambar Yang pernah saya buat',
     tags: ['React', 'Framer Motion'],
     imageId: 'project-2',
     liveUrl: '#',
