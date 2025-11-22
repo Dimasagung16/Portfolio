@@ -11,7 +11,7 @@ const projectsData: Project[] = [
     sourceUrl: '#',
   },
   {
-    title: 'Aplikasi Manajemen Tugas',
+    title: 'Contoh gambar',
     description: 'Aplikasi manajemen tugas responsif yang dirancang untuk meningkatkan produktivitas dengan antarmuka yang intuitif dan bersih.',
     tags: ['React', 'Framer Motion'],
     imageId: 'project-2',
