@@ -10,7 +10,7 @@ export function Hero() {
           dimas agung
         </h1>
         <p className="max-w-3xl text-lg text-muted-foreground md:text-xl">
-          Seorang pengembang dan desainer yang bersemangat menciptakan produk digital yang indah, fungsional, dan berpusat pada pengguna. Selamat datang di kanvas kreatif saya.
+          Saya Peminat dalam Design atau membuat vidio vidio cinematic
         </p>
         <Button size="lg" asChild>
           <a href="#projects">
