@@ -45,7 +45,7 @@ export function Projects() {
             Proyek Pilihan
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-muted-foreground md:text-lg">
-            Sekilas tentang dunia kode dan desain saya.
+            Ini Project Yang pernah saya buat
           </p>
         </div>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
