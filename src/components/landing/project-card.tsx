@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 export interface Project {
   title: string;
@@ -19,7 +19,7 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ project }: ProjectCardProps) {
-  const { title, description, tags, imageId, liveUrl, sourceUrl } = project;
+  const { title, description, tags, imageId, liveUrl } = project;
   const projectImage = PlaceHolderImages.find((img) => img.id === imageId);
   const isVideo = projectImage?.imageUrl.endsWith('.mp4');
 
@@ -61,11 +61,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
       </CardContent>
       <CardFooter className="flex justify-end gap-2">
-        <Button variant="ghost" asChild>
-          <a href={sourceUrl} target="_blank" rel="noopener noreferrer">
-            <Github className="mr-2 h-4 w-4" /> Sumber
-          </a>
-        </Button>
         <Button asChild>
           <a href={liveUrl} target="_blank" rel="noopener noreferrer">
             <ExternalLink className="mr-2 h-4 w-4" /> Demo Langsung
