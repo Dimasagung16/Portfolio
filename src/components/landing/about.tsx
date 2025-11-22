@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge';
 
 const skills = [
   'Desain UI/UX',
-  'Pengembangan Web',
+  'Sepakbola',
   'React & Next.js',
   'TypeScript',
   'Tailwind CSS',
