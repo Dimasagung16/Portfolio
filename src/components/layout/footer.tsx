@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex items-center gap-2">
           <Feather className="h-5 w-5 text-primary" />
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} CraftCanvas. All rights reserved.
+            &copy; {new Date().getFullYear()} Dimas Agung. All rights reserved.
           </p>
         </div>
         <div className="flex items-center gap-2">

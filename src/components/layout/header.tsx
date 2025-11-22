@@ -44,7 +44,7 @@ export function Header() {
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <a href="#" className="flex items-center gap-2" onClick={(e) => handleScroll(e, '#')}>
           <Feather className="h-6 w-6 text-primary" />
-          <span className="font-headline text-2xl font-bold text-foreground">CraftCanvas</span>
+          <span className="font-headline text-2xl font-bold text-foreground">Dimas Agung</span>
         </a>
 
         <nav className="hidden items-center gap-6 md:flex">
@@ -72,7 +72,7 @@ export function Header() {
               <div className="flex flex-col gap-6 p-6">
                 <a href="#" className="flex items-center gap-2" onClick={(e) => handleScroll(e, '#')}>
                   <Feather className="h-6 w-6 text-primary" />
-                  <span className="font-headline text-2xl font-bold">CraftCanvas</span>
+                  <span className="font-headline text-2xl font-bold">Dimas Agung</span>
                 </a>
                 <nav className="flex flex-col items-start gap-4">
                   {navItems.map((item) => (
