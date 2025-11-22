@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge';
 
 const skills = [
   'Bidang Olahraga',
-  'Cinematic',
+  'VidioEditing',
   'Mencari rupiah',
   'Figma',
 ];
