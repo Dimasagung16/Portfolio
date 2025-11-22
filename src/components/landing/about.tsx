@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 const skills = [
   'Desain UI/UX',
   'Sepakbola',
-  'React & Next.js',
+  'Cinematic',
   'TypeScript',
   'Tailwind CSS',
   'Figma',
