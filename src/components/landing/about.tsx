@@ -6,7 +6,6 @@ const skills = [
   'Desain UI/UX',
   'Sepakbola',
   'Cinematic',
-  'TypeScript',
   'Tailwind CSS',
   'Figma',
   'Node.js',
