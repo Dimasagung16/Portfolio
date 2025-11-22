@@ -6,7 +6,7 @@ const skills = [
   'Desain UI/UX',
   'Sepakbola',
   'Cinematic',
-  'Menjadi rupiah',
+  'Mencari rupiah',
   'Figma',
   'Node.js',
   'Firebase',
