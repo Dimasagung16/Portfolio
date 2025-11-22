@@ -13,7 +13,7 @@ const projectsData: Project[] = [
   {
     title: 'Contoh gambar',
     description: 'Contoh Project Gambar Yang pernah saya buat',
-    tags: ['React', 'Framer Motion'],
+    tags: ['Fotoshop', 'Canva', 'Figma'],
     imageId: 'project-2',
     liveUrl: '#',
     sourceUrl: '#',
