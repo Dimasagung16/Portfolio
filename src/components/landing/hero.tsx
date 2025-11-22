@@ -7,7 +7,7 @@ export function Hero() {
        <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(to_bottom,white_10%,transparent_70%)] dark:bg-grid-slate-700/40"></div>
        <div className="container relative z-10 mx-auto flex flex-col items-center gap-6 px-4 md:px-6">
         <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-7xl lg:text-8xl">
-          Menciptakan Pengalaman Digital
+          dimas agung
         </h1>
         <p className="max-w-3xl text-lg text-muted-foreground md:text-xl">
           Seorang pengembang dan desainer yang bersemangat menciptakan produk digital yang indah, fungsional, dan berpusat pada pengguna. Selamat datang di kanvas kreatif saya.
