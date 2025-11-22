@@ -21,19 +21,30 @@ interface ProjectCardProps {
 export function ProjectCard({ project }: ProjectCardProps) {
   const { title, description, tags, imageId, liveUrl, sourceUrl } = project;
   const projectImage = PlaceHolderImages.find((img) => img.id === imageId);
+  const isVideo = projectImage?.imageUrl.endsWith('.mp4');
 
   return (
     <Card className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       {projectImage && (
-        <div className="aspect-video overflow-hidden">
-          <Image
-            src={projectImage.imageUrl}
-            alt={projectImage.description}
-            width={600}
-            height={400}
-            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-            data-ai-hint={projectImage.imageHint}
-          />
+        <div className="aspect-video overflow-hidden bg-muted">
+          {isVideo ? (
+            <video
+              src={projectImage.imageUrl}
+              width={600}
+              height={400}
+              controls
+              className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+            />
+          ) : (
+            <Image
+              src={projectImage.imageUrl}
+              alt={projectImage.description}
+              width={600}
+              height={400}
+              className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              data-ai-hint={projectImage.imageHint}
+            />
+          )}
         </div>
       )}
       <CardHeader>
