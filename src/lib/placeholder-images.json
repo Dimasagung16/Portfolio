@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "about-me",
+      "description": "A portrait of a creative professional.",
+      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjM3MTEyNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "project-1",
+      "description": "A modern web application interface on a laptop screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYXB0b3AlMjBjb2RlfGVufDB8fHx8MTc2Mzc2MjkzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop code"
+    },
+    {
+      "id": "project-2",
+      "description": "A mobile application showcasing a clean user interface.",
+      "imageUrl": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaG9uZSUyMGFwcHxlbnwwfHx8fDE3NjM3Mjg2NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone app"
+    },
+    {
+      "id": "project-3",
+      "description": "A dashboard with data visualizations and charts.",
+      "imageUrl": "https://images.unsplash.com/photo-1748609278627-4b0e483b9b70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYXNoYm9hcmQlMjBhbmFseXRpY3N8ZW58MHx8fHwxNzYzNzA5MDcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard analytics"
+    },
+    {
+      "id": "project-4",
+      "description": "A minimalist e-commerce website design.",
+      "imageUrl": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTc2MzczMzA4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce website"
+    }
+  ]
 }
