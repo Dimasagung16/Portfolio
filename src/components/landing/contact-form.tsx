@@ -12,9 +12,9 @@ import { useToast } from '@/hooks/use-toast';
 import { Send } from 'lucide-react';
 
 const formSchema = z.object({
-  name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
-  email: z.string().email({ message: 'Please enter a valid email address.' }),
-  message: z.string().min(10, { message: 'Message must be at least 10 characters.' }),
+  name: z.string().min(2, { message: 'Nama harus terdiri dari minimal 2 karakter.' }),
+  email: z.string().email({ message: 'Harap masukkan alamat email yang valid.' }),
+  message: z.string().min(10, { message: 'Pesan harus terdiri dari minimal 10 karakter.' }),
 });
 
 export function ContactForm() {
@@ -30,10 +30,10 @@ export function ContactForm() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values); // In a real app, you would send this data to a server
+    console.log(values); // Di aplikasi nyata, Anda akan mengirim data ini ke server
     toast({
-      title: 'Message Sent!',
-      description: "Thanks for reaching out. I'll get back to you soon.",
+      title: 'Pesan Terkirim!',
+      description: 'Terima kasih telah menghubungi. Saya akan segera membalasnya.',
     });
     form.reset();
   }
@@ -49,9 +49,9 @@ export function ContactForm() {
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Name</FormLabel>
+                    <FormLabel>Nama</FormLabel>
                     <FormControl>
-                      <Input placeholder="Your Name" {...field} />
+                      <Input placeholder="Nama Anda" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -64,7 +64,7 @@ export function ContactForm() {
                   <FormItem>
                     <FormLabel>Email</FormLabel>
                     <FormControl>
-                      <Input placeholder="your.email@example.com" {...field} />
+                      <Input placeholder="email.anda@contoh.com" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -76,9 +76,9 @@ export function ContactForm() {
               name="message"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Message</FormLabel>
+                  <FormLabel>Pesan</FormLabel>
                   <FormControl>
-                    <Textarea placeholder="Tell me about your project or just say hi!" rows={6} {...field} />
+                    <Textarea placeholder="Ceritakan tentang proyek Anda atau sekadar menyapa!" rows={6} {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -87,7 +87,7 @@ export function ContactForm() {
           </CardContent>
           <CardFooter className="flex justify-end">
             <Button type="submit" disabled={form.formState.isSubmitting}>
-              Send Message <Send className="ml-2 h-4 w-4" />
+              Kirim Pesan <Send className="ml-2 h-4 w-4" />
             </Button>
           </CardFooter>
         </form>

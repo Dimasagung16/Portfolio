@@ -8,9 +8,9 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 
 const navItems = [
-  { href: '#about', label: 'About' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#about', label: 'Tentang' },
+  { href: '#projects', label: 'Proyek' },
+  { href: '#contact', label: 'Kontak' },
 ];
 
 export function Header() {
@@ -65,7 +65,7 @@ export function Header() {
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
                 <Menu className="h-6 w-6" />
-                <span className="sr-only">Toggle navigation menu</span>
+                <span className="sr-only">Buka menu navigasi</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="right">

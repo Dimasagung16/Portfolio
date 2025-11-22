@@ -3,8 +3,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 
 const skills = [
-  'UI/UX Design',
-  'Web Development',
+  'Desain UI/UX',
+  'Pengembangan Web',
   'React & Next.js',
   'TypeScript',
   'Tailwind CSS',
@@ -33,16 +33,16 @@ export function About() {
         </div>
         <div className="flex flex-col items-start gap-6">
           <h2 className="font-headline text-4xl font-bold text-foreground md:text-5xl">
-            About Me
+            Tentang Saya
           </h2>
           <p className="text-base text-muted-foreground md:text-lg">
-            Hello! I&apos;m a creative developer with a passion for building elegant and effective web applications. With a background in both design and engineering, I bridge the gap between aesthetics and functionality to deliver seamless user experiences.
+            Halo! Saya seorang pengembang kreatif dengan hasrat untuk membangun aplikasi web yang elegan dan efektif. Dengan latar belakang di bidang desain dan rekayasa, saya menjembatani kesenjangan antara estetika dan fungsionalitas untuk memberikan pengalaman pengguna yang mulus.
           </p>
           <p className="text-base text-muted-foreground md:text-lg">
-            My journey in tech is driven by curiosity and a desire to solve real-world problems. When I&apos;m not coding, you can find me exploring new design trends, contributing to open-source projects, or enjoying a good cup of coffee.
+            Perjalanan saya di dunia teknologi didorong oleh rasa ingin tahu dan keinginan untuk memecahkan masalah di dunia nyata. Saat tidak sedang membuat kode, Anda dapat menemukan saya menjelajahi tren desain baru, berkontribusi pada proyek sumber terbuka, atau menikmati secangkir kopi yang nikmat.
           </p>
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-foreground">My Skillset</h3>
+            <h3 className="mb-4 text-lg font-semibold text-foreground">Keahlian Saya</h3>
             <div className="flex flex-wrap gap-2">
               {skills.map((skill) => (
                 <Badge key={skill} variant="outline" className="text-sm">

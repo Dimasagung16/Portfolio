@@ -52,12 +52,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <CardFooter className="flex justify-end gap-2">
         <Button variant="ghost" asChild>
           <a href={sourceUrl} target="_blank" rel="noopener noreferrer">
-            <Github className="mr-2 h-4 w-4" /> Source
+            <Github className="mr-2 h-4 w-4" /> Sumber
           </a>
         </Button>
         <Button asChild>
           <a href={liveUrl} target="_blank" rel="noopener noreferrer">
-            <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
+            <ExternalLink className="mr-2 h-4 w-4" /> Demo Langsung
           </a>
         </Button>
       </CardFooter>
