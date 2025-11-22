@@ -36,7 +36,7 @@ export function About() {
             Tentang Saya
           </h2>
           <p className="text-base text-muted-foreground md:text-lg">
-            Saya Suka dalam bidang membuat vido vido cinematic atau fotografer
+            Saya Suka dalam bidang membuat vidio vido cinematic atau fotografer
           </p>
           <p className="text-base text-muted-foreground md:text-lg">
             Perjalanan saya di dunia teknologi didorong oleh rasa ingin tahu dan keinginan untuk memecahkan masalah di dunia nyata. Saat tidak sedang membuat kode, Anda dapat menemukan saya menjelajahi tren desain baru, berkontribusi pada proyek sumber terbuka, atau menikmati secangkir kopi yang nikmat.
