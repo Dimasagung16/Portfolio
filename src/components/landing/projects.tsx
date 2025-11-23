@@ -21,7 +21,7 @@ const projectsData: Project[] = [
   {
     title: 'Contoh gambar',
     description: 'contoh project gambar',
-    tags: ['SvelteKit', 'D3.js', 'PostgreSQL'],
+    tags: ['Canva', 'Photoroom', 'Alight motion', 'Lightroom'],
     imageId: 'project-3',
     liveUrl: '#',
     sourceUrl: '#',
