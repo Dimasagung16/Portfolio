@@ -11,7 +11,7 @@ const projectsData: Project[] = [
     sourceUrl: '#',
   },
   {
-    title: 'Contoh gambar',
+    title: 'Contoh gambar 1',
     description: 'Contoh Project Gambar Yang pernah saya buat',
     tags: ['Fotoshop', 'Canva', 'Figma', 'Capcut'],
     imageId: 'project-2',
@@ -19,7 +19,7 @@ const projectsData: Project[] = [
     sourceUrl: '#',
   },
   {
-    title: 'Contoh gambar',
+    title: 'Contoh gambar 2',
     description: 'contoh project gambar',
     tags: ['Canva', 'Photoroom', 'Alight motion', 'Lightroom'],
     imageId: 'project-3',
