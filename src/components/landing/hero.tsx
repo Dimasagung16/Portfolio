@@ -9,9 +9,6 @@ export function Hero() {
         <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-7xl lg:text-8xl">
           dimas agung
         </h1>
-        <p className="max-w-3xl text-lg text-muted-foreground md:text-xl">
-          Saya Peminat dalam Design atau membuat vidio vidio cinematic
-        </p>
         <Button size="lg" asChild>
           <a href="#projects">
             Lihat Karya Saya <MoveRight className="ml-2 h-5 w-5" />
