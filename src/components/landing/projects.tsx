@@ -19,7 +19,7 @@ const projectsData: Project[] = [
     sourceUrl: '#',
   },
   {
-    title: 'Contoh project foto',
+    title: 'Contoh gambar',
     description: 'contoh project gambar',
     tags: ['SvelteKit', 'D3.js', 'PostgreSQL'],
     imageId: 'project-3',
