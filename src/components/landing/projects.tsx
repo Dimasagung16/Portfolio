@@ -27,7 +27,7 @@ const projectsData: Project[] = [
     sourceUrl: '#',
   },
   {
-    title: 'Situs Web Portofolio',
+    title: 'Hobi',
     description: 'Situs web portofolio pribadi untuk memamerkan proyek dan keahlian saya, dibuat dengan fokus pada desain dan kinerja.',
     tags: ['Gatsby', 'GraphQL', 'Styled Components'],
     imageId: 'project-4',
