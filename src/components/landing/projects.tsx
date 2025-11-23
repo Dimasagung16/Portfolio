@@ -19,7 +19,7 @@ const projectsData: Project[] = [
     sourceUrl: '#',
   },
   {
-    title: 'Dasbor Analitik',
+    title: 'Contoh project foto',
     description: 'Dasbor visualisasi data yang menyediakan wawasan dan analitik real-time untuk kecerdasan bisnis.',
     tags: ['SvelteKit', 'D3.js', 'PostgreSQL'],
     imageId: 'project-3',
