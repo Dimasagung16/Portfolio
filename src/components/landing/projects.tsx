@@ -29,7 +29,7 @@ const projectsData: Project[] = [
   {
     title: 'Hobi',
     description: 'Hobi saya suka adalah sepakbola,saya pernah masuk akademi persib ,dan mengikuti turnamen turnamen',
-    tags: ['Gatsby', 'GraphQL', 'Styled Components'],
+    tags: ['olahraga'],
     imageId: 'project-4',
     liveUrl: '#',
     sourceUrl: '#',
