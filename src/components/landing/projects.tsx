@@ -13,7 +13,7 @@ const projectsData: Project[] = [
   {
     title: 'Contoh gambar',
     description: 'Contoh Project Gambar Yang pernah saya buat',
-    tags: ['Fotoshop', 'Canva', 'Figma'],
+    tags: ['Fotoshop', 'Canva', 'Figma', 'Capcut'],
     imageId: 'project-2',
     liveUrl: 'https://res.cloudinary.com/dj2qvrrvk/image/upload/v1763821723/5cf8141f-5d47-4821-91d6-320badd70bd7_ap5m0k.jpg',
     sourceUrl: '#',
