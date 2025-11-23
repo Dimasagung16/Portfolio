@@ -28,7 +28,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'Hobi',
-    description: 'Situs web portofolio pribadi untuk memamerkan proyek dan keahlian saya, dibuat dengan fokus pada desain dan kinerja.',
+    description: 'Hobi saya suka adalah sepakbola,saya pernah masuk akademi persib ,dan mengikuti turnamen turnamen',
     tags: ['Gatsby', 'GraphQL', 'Styled Components'],
     imageId: 'project-4',
     liveUrl: '#',
