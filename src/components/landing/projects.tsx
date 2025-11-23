@@ -20,7 +20,7 @@ const projectsData: Project[] = [
   },
   {
     title: 'Contoh project foto',
-    description: 'Dasbor visualisasi data yang menyediakan wawasan dan analitik real-time untuk kecerdasan bisnis.',
+    description: 'contoh project gambar',
     tags: ['SvelteKit', 'D3.js', 'PostgreSQL'],
     imageId: 'project-3',
     liveUrl: '#',
