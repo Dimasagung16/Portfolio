@@ -35,7 +35,7 @@ export function About() {
             Hello nama saya dimas saya lulusan SMA dan sekarang saya bekerja di salah satu perusahan yang bergerak dibidang cosmetic,parfum,roko dan lainnya dan juga saya suka dalam bidang editing atau membuat vidio vdio cinematic
           </p>
           <p className="text-base text-muted-foreground md:text-lg">
-            Sekarang Saya Bekerja dalam bidang Cosmetic,Parfum,roko dan lainnya
+            Dan Hobi  saya suka dalam bidang olahraga seperti sepakbola,basket,tenis meja,padel dan lainnya
           </p>
           <div>
             <h3 className="mb-4 text-lg font-semibold text-foreground">Keahlian Saya</h3>
