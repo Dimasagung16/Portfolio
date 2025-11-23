@@ -31,7 +31,7 @@ const projectsData: Project[] = [
     description: 'Hobi saya suka adalah sepakbola,saya pernah masuk akademi persib ,dan mengikuti turnamen turnamen',
     tags: ['olahraga'],
     imageId: 'project-4',
-    liveUrl: '#',
+    liveUrl: 'https://res.cloudinary.com/dj2qvrrvk/image/upload/v1763889636/d46cc7be-f8ca-4f3f-9fea-dc6a7024e8a0_swqy7h.jpg',
     sourceUrl: '#',
   },
 ];
