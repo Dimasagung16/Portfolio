@@ -23,7 +23,7 @@ const projectsData: Project[] = [
     description: 'contoh project gambar',
     tags: ['Canva', 'Photoroom', 'Alight motion', 'Lightroom'],
     imageId: 'project-3',
-    liveUrl: '#',
+    liveUrl: 'https://res.cloudinary.com/dj2qvrrvk/image/upload/v1763886679/40cf42ce-f854-4b42-900f-516adfa97ad8_kxtgba.jpg',
     sourceUrl: '#',
   },
   {
